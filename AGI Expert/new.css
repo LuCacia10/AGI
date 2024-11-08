@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media screen and (max-width=1113px){
+.top{
+    display: flex ;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* overflow: visible; */
+    
+}
+.top .left{
+    display:list-item;
+    justify-content: space-between;
+    /* width: 250px;
+    height: 110px;
+    text-align: justify;
+    overflow: auto; */
+}
+.top .right{
+
+}
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #4C5958;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.top .left a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+.top .right {
+    margin-right: 5px;
+}
+.top .right a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+.top a:hover{
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* margin: 10px; */
+    background-color: aliceblue;
+}
+.menu ul{
+    display:inline-flex;
+    padding-right: 30px;
+    padding-top: 15px;
+}
+.menu ul li{
+    padding: 20px;
+    list-style: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+.menu ul li a:hover{
+    cursor: pointer;
+    color: #8C503A;
+    line-height: 10px;
+}
+/* Accueil */
+.presentation{
+    background-image: url(Image/software.jpg);
+    height: 70vh;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.presentation .padding{
+    color: white;
+    background-color:rgb(21, 85, 85);
+    height: 60vh;
+    width: 70vh;
+    padding-left: 20px;
+    padding-top: 50px;
+    opacity: 0.8;
+}
+.presentation .padding .span{
+    opacity: 1;
+}
+.presentation .padding h2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.details .trois {
+    border: 1px solid transparent ;
+    background-color: bisque;
+}
+.details .trois .image img{
+    height: 200px;
+    width: 100%;
+    margin-top: 10px;
+}
+.details .trois .span{
+    text-align: center;
+}
+.details .trois .span a{
+    text-decoration: none;
+    color: white;
+    background-color: #023535;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+.articles{
+    margin: 30px;
+}
+.articles h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #13678A;
+}
+.articles ul li{
+    list-style: none;
+    padding: 7px;
+    /* padding-right: 5px; */
+}
+.articles ul li i{
+    color: #8C503A;
+}
+.articles ul li a{
+    text-decoration: none;
+    color: grey;
+}
+/* Footer */
+.Gdiv{
+    background-color: #4C5958;
+    margin-bottom: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    height: 40vh;
+    padding: 80px;
+}
+.divCopy{
+    padding: 15px;
+}
+.footer .divFooter h2{
+    text-align: center;
+    color: white;
+    font-family: monospace;   
+}
+.footer .divFooter span a{
+    text-decoration: none;
+    color: #fff;
+    padding-bottom: 10px;
+    
+}
+.footer .divFooter span a:hover{
+    color: midnightblue;
+}
+.divFooter span a i{
+    background-color: #4C5958;
+}
+.footer .divFooter #avecBorder{
+    border: 1px solid transparent;
+    border-radius: 50px;
+    padding: 10px;
+    /* background-color: white; */
+    /* opacity: 0.3; */
+}
+.footer .divFooter #avecBorder1{
+    border: 1px solid transparent;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: rgb(131, 131, 238);
+}
+.footer .divFooter #avecBorder2{
+    border: 1px solid transparent;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: rgb(74, 90, 233);
+}
+.footer .divFooter #avecBorder3{
+    border: 1px solid transparent;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: red;
+}
+.footer .divFooter a i{
+    color: aliceblue;
+}
+.divCopy{
+    color: white;
+    opacity: 0.5;
+}
