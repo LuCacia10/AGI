@@ -1,0 +1,50 @@
+.abonnement {
+    text-align: center;
+    border: 1px solid rgb(237, 214, 214);
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .abonnement img {
+    border: 1px solid rgb(221, 199, 199);
+    border-radius: 7px;
+    margin-left: 20px;
+    
+  }
+  
+  .ajouter-panier {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .ajouter-panier:hover {
+    background-color: #555;
+  }
+  .Derniers Articles ul {
+    list-style: none; 
+    padding: 0;
+}
+.text-container { 
+text-align: left; 
+}
+.main-text { 
+font-size: 24px; color: #1E3A8A;
+margin-bottom: 20px;
+ }
+ .sub-text p { 
+font-size: 18px; 
+margin-left: 20px;
+position: relative; 
+margin-bottom: 10px; 
+}
+.sub-text p::before { 
+content: "➔"; 
+color: #000; position: absolute; 
+left: -20px;  
+}
