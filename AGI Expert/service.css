@@ -105,33 +105,59 @@
     margin-bottom: 30px;
 }
 .details .trois {
-    border: 1px solid transparent ;
-    background-color: bisque;
+    border: 1px solid rgb(233, 230, 230);
+    background-color: white;
+    width: 27%;
+    margin-top: 10px;
+    padding-bottom: 10px;
 }
 .details .trois .image img{
     height: 200px;
     width: 100%;
-    margin-top: 10px;
 }
 .details .trois3{
     background-image: url(Image/expo.jpg);
-    width: 61vh;
-    height: 40vh;
-    margin-top: 10px;
-    opacity: 0.3;
-    /* background-color: bisque; */
+    width:100%;
+    height: 200px;
+    padding-top: 80px;
+} 
+.special{
+    margin-top: 13px;
+}
+.details .trois3 span p{
+    background-color: rgb(50, 129, 129);
+    border: 1px solid rgb(194, 192, 192);
+    border-radius: 20px;
+    height: 30px;
+    width: 120px;
+    color: #fff;
+    padding-top: 5px;
+    text-transform: uppercase;
+}
+.details .trois3 .span {
+    padding-top: 10px;
+    text-align: center;
+    color: rgb(48, 172, 95);
 }
 .details .trois .span{
     text-align: center;
 }
 .details .trois .span a{
     text-decoration: none;
-    color: pink;
-    /* background-color: white; */
+    color: rgb(48, 172, 95);
     padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 140px;
-    padding-right: 140px;
+    padding-bottom: 10px;  
+}
+.trois .icone{
+      margin-left: 170px; 
+      margin-top: -25px;
+      
+}
+.trois .icone #i{
+    background-color: rgb(50, 129, 129);
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
 }
 .articles{
     margin: 30px;
@@ -178,7 +204,7 @@
     
 }
 .footer .divFooter span a:hover{
-    color: midnightblue;
+    color: rgb(32, 230, 114);
 }
 .divFooter span a i{
     background-color: #4C5958;
