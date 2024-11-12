@@ -3,27 +3,45 @@
     padding: 0;
     box-sizing: border-box;
 }
-@media screen and (max-width=1113px){
-.top{
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+@media screen and (max-width=1150px){
+.navBar{
+    position: fixed;
+    top:0;
+    right: 0;
+    background-color: aliceblue;
+    width: 80%;
+    height: 100%;
+    padding: 7.5rem 3.5rem 0;
+    border-left: 2px solid black;
+    transition: right .4s;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    row-gap: 4rem;
+}
+/* .top{
     display: flex ;
     justify-content: space-between;
     flex-wrap: wrap;
     padding-top: 5px;
     padding-bottom: 5px;
-    /* overflow: visible; */
     
 }
 .top .left{
     display:list-item;
     justify-content: space-between;
-    /* width: 250px;
-    height: 110px;
-    text-align: justify;
-    overflow: auto; */
 }
 .top .right{
 
-}
+} */
 }
 .top{
     display: flex;
@@ -86,11 +104,12 @@
 .presentation .padding{
     color: white;
     background-color:rgb(21, 85, 85);
-    height: 60vh;
+    height: 40vh;
     width: 70vh;
     padding-left: 20px;
     padding-top: 50px;
     opacity: 0.8;
+    margin-top: 50px;
 }
 .presentation .padding .span{
     opacity: 1;
@@ -138,6 +157,10 @@
     padding-top: 10px;
     text-align: center;
     color: rgb(48, 172, 95);
+}
+.details .trois3 span a{
+    text-decoration: none;
+    color: white;
 }
 .details .trois .span{
     text-align: center;
