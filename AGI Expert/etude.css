@@ -1,0 +1,206 @@
+/* navBar */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 20;
+}
+/* @media screen and (max-width=1150px){
+.navBar{
+    position: fixed;
+    top:0;
+    right: 0;
+    background-color: aliceblue;
+    width: 80%;
+    height: 100%;
+    padding: 7.5rem 3.5rem 0;
+    border-left: 2px solid black;
+    transition: right .4s;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    row-gap: 4rem;
+}
+} */
+.top{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #4C5958;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.top .left a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+.top .right {
+    margin-right: 5px;
+}
+.top .right a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+.top a:hover{
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+}
+.menu ul{
+    display:inline-flex;
+    padding-right: 30px;
+    padding-top: 15px;
+}
+.menu ul li{
+    padding: 20px;
+    list-style: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+.menu ul li a:hover{
+    cursor: pointer;
+    color: #8C503A;
+    line-height: 10px;
+}
+/* Fin navBar */
+/* Accueil */
+.padding {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    margin-top: 50px;
+}
+.padding .assistance{
+    width: 60%;
+    background-color: rgb(241, 238, 238);
+    padding-right: 50px;
+}
+.padding .imageBilan{
+    width: 40%;
+    background-color: rgb(241, 238, 238);
+}
+.padding .assistance h2{
+    margin-top: 100px;
+    margin-left: 70px;
+    color: rgb(66, 66, 241);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.secondDiv{
+    display: flex;
+   margin-top: 30px;
+}
+.secondDiv .image {
+    width: 50%;
+}
+.secondDiv .image img{
+    height: 50vh;
+    width: 90vh;
+    margin-left: 60px;
+}
+.secondDiv .paragraphe{
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 50%;
+}
+.secondDiv .paragraphe h3{
+    color: rgb(66, 66, 241);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.objectif .paragraphe h2{
+    color: rgb(66, 66, 241);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bouton{
+    display: flex;
+    justify-content:center;
+    padding: 10px;
+}
+.bouton button{
+    margin-left: 60px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: black;
+    padding: 10px;
+}
+.bouton button a{
+    text-decoration: none;
+    color: white;
+}
+
+/* Footer */
+.Gdiv{
+    background-color: #4C5958;
+    margin-bottom: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    height: 40vh;
+    padding: 80px;
+}
+.divCopy{
+    padding: 15px;
+}
+.footer .divFooter h2{
+    text-align: center;
+    color: white;
+    font-family: monospace;   
+}
+.footer .divFooter span a{
+    text-decoration: none;
+    color: #fff;
+    padding-bottom: 10px;
+    
+}
+.footer .divFooter span a:hover{
+    color: rgb(32, 230, 114);
+}
+.divFooter span a i{
+    background-color: #4C5958;
+}
+.footer .divFooter #avecBorder{
+    border: 1px solid transparent;
+    border-radius: 50px;
+    padding: 10px;
+}
+.footer .divFooter #avecBorder1{
+    border: 1px solid transparent;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: rgb(131, 131, 238);
+}
+.footer .divFooter #avecBorder2{
+    border: 1px solid transparent;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: rgb(74, 90, 233);
+}
+.footer .divFooter #avecBorder3{
+    border: 1px solid transparent;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: red;
+}
+.footer .divFooter a i{
+    color: aliceblue;
+}
+.divCopy{
+    color: white;
+    opacity: 0.5;
+}
