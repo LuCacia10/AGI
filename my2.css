@@ -1,13 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&display=swap'); 
- *{
+/* header code */
+*{
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Archivo Narrow', sans-serif;
  }
- a{
-   font-family: 'Archivo Narrow', sans-serif;
- }
- /* bébut header */
+ 
  .top{
     display: flex;
     justify-content: space-between;
@@ -62,109 +58,49 @@
  }
 
 .menu ul li a:hover{
-   cursor: pointer;
-   color: #8c503a;
+    cursor: pointer;
+    color: #8c503a;
 }
-/* fin header */
-/* début section */
+/* fin  header */
+
 body{
-    margin:10px;
-    padding: 0; 
- }
- .intro{
-    align-items: center;
-    padding: 50px; 
-    background-image: url(imagemaison.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+   border: 5px solid black;
 }
-#info{
-   padding: 50px 30px;
-   color: white;
-}
-
-#info{
-    background-color: #003366;
-    opacity: 0.9;
-    width: 65vh;
-    margin-left: auto;
-    margin-top: 16vh;
-}
-
-.container1{
+.container{
     display: flex;
 }
-.photos{
+.about{
+    margin-left: 15vh;
+    width:50%;
 }
-
-#look{
-    width: 90%;
-    box-sizing: border-box;
-    margin-left: 80px;
-    font-family: 'Trebuchet MS'Arial, Helvetica, sans-serif;
-    text-align: center; 
-}
-#look h1{
-    color: #003366;
-}
-#look h4{
-    color: grey;
-}
-.into{
-    background-color: #333;
+.about .with{
+    background-color: blue;
     color: white;
     padding: 10px 20px;
-    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     border: none;
     cursor: pointer;
     text-decoration: none;
+    margin-left: 10vh;
 }
-.photos img{
-    height: 50vh;
+form{
+    width:100%;
+    margin-left: 5vh;
 }
-#look .into{
-    margin-top: 50px;
+form input{
+    display: inline-block;
+    width:70%;
+    padding-top: 20px;
 }
-.container0{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap:200px;
+.container .img{ 
+   margin-left: 10vh;
+} 
+.map img{
+width: 100%;
+height: 100%;
+margin-top: 10vh;
 }
-.titre{
-    margin-left: 90vh;
-}
-#information .intoo a{
-    margin-top: 50vh;
-}
-#information .intoo{
-    background-color: #A67458;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 20px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    text-decoration: none;
-}
-.m_container0{
-   background-color: #3e848c;
-   padding: 10px;
-   padding-right: 0;
-   padding-bottom: 30px;
-}
-#information{
-    padding-top: 8vh;
-}
-.Fin{
-    text-align: center;
-    margin-right: 10vh;
-    padding-top: 8vh;
-    background-color: white;
-}
-/* fin section */
 /* Footer */
 .Gdiv{
    background-color: #4C5958;
@@ -173,6 +109,7 @@ body{
 .footer{
    display: flex;
    justify-content: space-around;
+   height: 40vh;
    padding: 80px;
 }
 .divCopy{
@@ -199,6 +136,8 @@ body{
    border: 1px solid transparent;
    border-radius: 50px;
    padding: 10px;
+   /* background-color: white; */
+   /* opacity: 0.3; */
 }
 .footer .divFooter #avecBorder1{
    border: 1px solid transparent;
