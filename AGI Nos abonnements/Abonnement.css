@@ -1,3 +1,4 @@
+
 .abonnement {
     text-align: center;
     border: 1px solid rgb(237, 214, 214);
@@ -29,35 +30,344 @@
     list-style: none; 
     padding: 0;
 }
-.text-container { 
+
+  .text-container { 
 text-align: left; 
 }
-.main-text { 
+
+  .main-text { 
 font-size: 24px; color: #1E3A8A;
 margin-bottom: 20px;
  }
- .sub-text p { 
+
+  .sub-text p { 
 font-size: 18px; 
 margin-left: 20px;
 position: relative; 
 margin-bottom: 10px; 
 }
-.sub-text p::before { 
+
+  .sub-text p::before { 
 content: "➔"; 
 color: #000; position: absolute; 
 left: -20px;  
 }
-.menu{
+
+  .menu{
   margin-top: 20px;
   width: 100%;
   height: 100%;
-}
-.menu img {
-  width: 100%;
-  height: 100%;
-}
-.menu img{
-  background-image: url(istockphoto-1434212178-612x612.jpg);
-  
+  .menu {
+    position: relative;
 }
 
+  .menu img {
+  width: 100%;
+  height: 100%;
+    width: 100%;
+    height: auto;
+}
+  .menu img {
+  background-image: url(istockphoto-1434212178-612x612.jpg);
+} 
+
+  .menu-text {
+    position: absolute;
+    top: 50%;
+    left: 4cm;
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    transform: translateY(-50%);
+}
+
+.menu {
+    position: relative;
+}
+
+.menu img {
+    width: 100%;
+    height: auto;
+}
+
+.menu-text {
+    position: absolute;
+    top: 50%;
+    left: 4cm;
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    transform: translateY(-50%);
+}
+.abonnement {
+    text-align: center;
+    border: 1px solid rgb(237, 214, 214);
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Make items wrap to the next line */
+}
+
+.abonnement img {
+    border: 1px solid rgb(221, 199, 199);
+    border-radius: 7px;
+    margin-left: 20px;
+    max-width: 100%; /* Ensure images are responsive */
+    height: auto;
+}
+
+.ajouter-panier {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ajouter-panier:hover {
+    background-color: #555;
+}
+
+.Derniers Articles ul {
+    list-style: none; 
+    padding: 0;
+}
+
+.text-container { 
+    text-align: left; 
+    padding: 20px; /* Add padding for better spacing */
+}
+
+.main-text { 
+    font-size: 24px; 
+    color: #1E3A8A;
+    margin-bottom: 20px;
+}
+
+.sub-text p { 
+    font-size: 18px; 
+    margin-left: 20px;
+    position: relative; 
+    margin-bottom: 10px; 
+}
+
+.sub-text p::before { 
+    content: "➔"; 
+    color: #000; 
+    position: absolute; 
+    left: -20px;  
+}
+
+.menu {
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.menu img {
+    width: 100%;
+    height: auto;
+}
+
+.menu-text {
+    position: absolute;
+    top: 50%;
+    left: 4cm;
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    transform: translateY(-50%);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .menu-text {
+        left: 2cm;
+        font-size: 18px;
+        padding: 15px;
+    }
+
+    .abonnement {
+        flex-direction: column; 
+        align-items: center; 
+    
+
+    .abonnement img {
+        margin-left: 0; 
+        margin-bottom: 20px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .menu-text {
+        left: 1cm;
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .main-text {
+        font-size: 20px;
+    }
+
+    .sub-text p {
+        font-size: 16px;
+    }
+}
+@media (max-width: 768px) {
+    .menu-text {
+        left: 2cm;
+        font-size: 18px;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .menu-text {
+        left: 1cm;
+        font-size: 16px;
+        padding: 10px;
+    }
+}
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+}
+.menu ul{
+    display:inline-flex;
+    padding-right: 30px;
+    padding-top: 15px;
+}
+.menu ul li{
+    padding: 20px;
+    list-style: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+.menu ul li a:hover{
+    cursor: pointer;
+    color: #8C503A;
+    line-height: 10px;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.blog-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.blog-item {
+    width: 45%;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    border: 2px solid transparent;
+    border-image: linear-gradient(to right, #faf1eb, #f7e3ea) 1;
+}
+
+.blog-photo {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.blog-text {
+    text-align: left;
+}
+
+p {
+    margin: 10px 0;
+}
+
+.read-more {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1E90FF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.read-more:hover {
+    background-color: #1C86EE;
+}
+.Gdiv{
+    background-color: #4C5958;
+    margin-bottom: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    height: 40vh;
+    padding: 80px;
+}
+.divCopy{
+    padding: 15px;
+}
+.footer .divFooter h2{
+    text-align: center;
+    color: white;
+    font-family: monospace;   
+}
+.footer .divFooter span a{
+    text-decoration: none;
+    color: #fff;
+    padding-bottom: 10px;
+    
+}
+.footer .divFooter span a:hover{
+    color: rgb(32, 230, 114);
+}
+.divFooter span a i{
+    background-color: #4C5958;
+}
+.footer .divFooter #avecBorder{
+    border: 1px solid transparent;
+    border-radius: 50px;
+    padding: 10px;
+}
+.footer .divFooter #avecBorder1{
+    border: 1px solid transparent;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: rgb(131, 131, 238);
+}
+.footer .divFooter #avecBorder2{
+    border: 1px solid transparent;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: rgb(74, 90, 233);
+}
+.footer .divFooter #avecBorder3{
+    border: 1px solid transparent;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: red;
+}
+.footer .divFooter a i{
+    color: aliceblue;
+}
+.divCopy{
+    color: white;
+    opacity: 0.5;
+}
